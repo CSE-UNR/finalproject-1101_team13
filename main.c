@@ -3,14 +3,15 @@
 //Purpose: Final Project
 //Due May 7th, 2024
 
-#include <stdio.h>
-
-int main(){
 #define MAX_ROWS 500
 #define MAX_COLUMNS 500
 #define PIXEL 3
 #define FILE_NAME "image.txt"
 #define MAX 100
+#include <stdio.h>
+
+int main(){
+
    
     
     char menuChoice;
