@@ -3,13 +3,17 @@
 //Purpose: Final Project
 //Due May 7th, 2024
 
+<<<<<<< HEAD
 #include <stdio.h>
 
+=======
+>>>>>>> e69f2a9330ebc4e187567912e3dfdb4822dbf664
 #define MAX_ROWS 500
 #define MAX_COLUMNS 500
 #define PIXEL 3
 #define FILE_NAME "testfile.txt"
 #define MAX 100
+<<<<<<< HEAD
 
 char saveImage(){
 	char newImageName[MAX];
@@ -92,6 +96,13 @@ int editMenu(){
 }
 
 int main(){
+=======
+#include <stdio.h>
+
+int main(){
+
+   
+>>>>>>> e69f2a9330ebc4e187567912e3dfdb4822dbf664
     
     int menuChoice, menuChoice2, i;
     int pictureArray[MAX];
