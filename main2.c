@@ -96,10 +96,6 @@ int editMenu(){
 }
 
 int main(){
-=======
-#include <stdio.h>
-
-int main(){
 
    
 >>>>>>> e69f2a9330ebc4e187567912e3dfdb4822dbf664
