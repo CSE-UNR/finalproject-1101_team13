@@ -107,8 +107,49 @@ int editMenu(){
 	return menuChoice2;
 }
 
+<<<<<<< HEAD:FinalProject.c
 void displayImage(){
 	char ch;
+=======
+int main(){
+
+   
+>>>>>>> e69f2a9330ebc4e187567912e3dfdb4822dbf664
+    
+    int menuChoice, menuChoice2, i;
+    int pictureArray[MAX];
+    char ch;
+    char fileName[MAX];
+    
+    //do{ 
+        printf("Welcome to Erinstagram!");
+        printf("\nMAIN MENU:");
+        printf("\n1. Load a new image.");
+        printf("\n2. Display the current image.");
+        printf("\n3. Edit the current image.");
+        printf("\n4. Exit the program.\n");
+        scanf("%d", &menuChoice);
+        
+        if(menuChoice==1){ //LOAD NEW IMAGE
+        
+            printf("What is the name of your file?\n");
+            scanf("%s", fileName); //takes user input for file name
+            
+            FILE *fp2;
+            fp2 = fopen(fileName, "r"); //opens file to read
+            
+            if(fp2==NULL){
+                printf("Cannot open file to read.\n");
+            }
+            else{
+            	do {
+            		ch = fgetc(fp2);
+            		printf("%c", ch); //displays values of file
+            	} while (ch != EOF);
+            }
+        }
+        if(menuChoice==2){ //DISPLAY CURRENT IMAGE
+>>>>>>> 3f2454cfa6a76255ee228444b691c8726b640256:main2.c
             
             FILE *fp1;
             fp1 = fopen(FILE_NAME, "r"); //opens default file to read
